@@ -1,7 +1,7 @@
 FROM justin8/archlinux
 MAINTAINER justin@dray.be
 
-RUN pacman -Syq --noprogressbar --noconfirm sabnzbd
+RUN pacman -Syq --noprogressbar --noconfirm sabnzbd python2-pyopenssl
 
 VOLUME "/config"
 
